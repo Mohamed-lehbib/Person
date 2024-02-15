@@ -9,7 +9,7 @@ public class DbConnection {
 
     private static DbConnection instance;
     private Connection connection;
-    private String url = "jdbc:postgresql://localhost:5432/";
+    private String url = "jdbc:postgresql://localhost:5435/";
     private String bdd="soa";
     private String username = "postgres";
     private String password = "postgres";
